@@ -2,14 +2,16 @@
 
 原作者AHAAAAAAA大神，原本需要使用本人gmail账户，稍作修改直接使用pokemon trainer club的服务器和账号，避免封号风险。
 
+0.申请一个googlemap API key:https://developers.google.com/maps/documentation/javascript/get-api-key
 1.Clone or download下载并解压
 2.下载并安装python2.7 https://www.python.org/downloads/，最好安装于默认路径
-3.进入网页https://bootstrap.pypa.io/get-pip.py 邮件空白处保存为一个python文件
-4.爬虫讲使用pokemon trainer club服务器，注册一个账号https://club.pokemon.com/us/pokemon-trainer-club/sign-up/
+3.进入网页https://bootstrap.pypa.io/get-pip.py 右键空白处保存为一个python文件
+4.爬虫使用pokemon trainer club服务器，注册一个账号https://club.pokemon.com/us/pokemon-trainer-club/sign-up/
 5.解压在github下载的文件，进入文件夹，shift+右键点击空白处，选择”Open Command Window Here"/“启动命令提示符”
 6.Unix界面输入pip install -r requirements.txt
 7.如果显示pip is not recognized，则把开头的"pip" 替换成"C:\Python27\Scripts\pip” （如果你更换了安装python的路径请自行替换）
-8.安装完成后输入python runserver.py -a ptc -u ****** -p ****** -l "Some Location" -st 10 -H 0.0.0.0 -L en
+8.用记事本打开config/credentials.json，把google API key输入到双引号之间。
+9.安装完成后输入python runserver.py -a ptc -u ****** -p ****** -l "Some Location" -st 10 -H 0.0.0.0 -L en
 
 -u 后面的星号部分替换为你之前注册的Pokemon Trainer Club/Goggle账户的username
 -p 后面的替换为对应的密码
