@@ -1,0 +1,27 @@
+既然大家决定抛弃节操了.......
+
+原作者AHAAAAAAA大神，原本需要使用本人gmail账户，稍作修改直接使用pokemon go的服务器和账号，避免封号风险。
+
+1.Clone or download下载并解压
+2.下载并安装python2.7 https://www.python.org/downloads/
+3.进入网页https://bootstrap.pypa.io/get-pip.py 邮件空白处保存为一个python文件
+4.爬虫讲使用pokemon trainer club服务器，注册一个账号https://club.pokemon.com/us/pokemon-trainer-club/sign-up/
+5.解压在github下载的文件，进入文件夹，邮件空白处，选择”Open Command Window Here"/“启动命令提示符”
+6.Unix界面输入pip install -r requirements.txt
+7.如果显示pip is not recognized，则把开头的"pip" 替换成"C:\Python27\Scripts\pip” （如果你更换了安装python的路径请自行替换）
+8.安装完成后输入python example.py -a ptc -u ****** -p ****** -l "Some Location" -st 10
+
+-u 后面的星号部分替换为你之前注册的Pokemon Trainer Club/Goggle账户的username
+-p 后面的替换为对应的密码
+-l 后面的 "some location" 引号内部分替换为google map的gps 坐标。google地图上任意点击一个位置在屏幕下方就会出现gps坐标。
+同样，如果显示"Python is not recognized"， 请把开头的"python" 替换成"C:\Python27\python” （如果你更换了安装python的路径请自行替换）
+打开你的浏览器，在地址栏输入
+http://localhost:5000
+然后一直刷新就好了。
+
+举例
+python example.py -a ptc -u pokemontrainer -p 1234567 -l "-34.915612, 138.594893" -st 10
+
+PS -34.915612, 138.594893是国内飞机党所谓的“龙穴”，大概一分钟一条迷你龙的刷新速度。配合fake gps大概两三小时就能刷出快龙。
+
+给你一个精灵球，踏上旅程吧，pokedex全开之前不要回来，我会好好照顾你妈妈的！
