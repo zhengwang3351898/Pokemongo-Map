@@ -6,7 +6,7 @@
 2.下载并安装python2.7 https://www.python.org/downloads/
 3.进入网页https://bootstrap.pypa.io/get-pip.py 邮件空白处保存为一个python文件
 4.爬虫讲使用pokemon trainer club服务器，注册一个账号https://club.pokemon.com/us/pokemon-trainer-club/sign-up/
-5.解压在github下载的文件，进入文件夹，邮件空白处，选择”Open Command Window Here"/“启动命令提示符”
+5.解压在github下载的文件，进入文件夹，shift+右键点击空白处，选择”Open Command Window Here"/“启动命令提示符”
 6.Unix界面输入pip install -r requirements.txt
 7.如果显示pip is not recognized，则把开头的"pip" 替换成"C:\Python27\Scripts\pip” （如果你更换了安装python的路径请自行替换）
 8.安装完成后输入python example.py -a ptc -u ****** -p ****** -l "Some Location" -st 10
