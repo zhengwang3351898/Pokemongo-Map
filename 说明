@@ -3,7 +3,7 @@
 原作者AHAAAAAAA大神，原本需要使用本人gmail账户，稍作修改直接使用pokemon trainer club的服务器和账号，避免封号风险。
 
 1.Clone or download下载并解压
-2.下载并安装python2.7 https://www.python.org/downloads/
+2.下载并安装python2.7 https://www.python.org/downloads/，最好安装于默认路径
 3.进入网页https://bootstrap.pypa.io/get-pip.py 邮件空白处保存为一个python文件
 4.爬虫讲使用pokemon trainer club服务器，注册一个账号https://club.pokemon.com/us/pokemon-trainer-club/sign-up/
 5.解压在github下载的文件，进入文件夹，shift+右键点击空白处，选择”Open Command Window Here"/“启动命令提示符”
