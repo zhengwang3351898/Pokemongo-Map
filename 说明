@@ -9,7 +9,7 @@
 5.解压在github下载的文件，进入文件夹，shift+右键点击空白处，选择”Open Command Window Here"/“启动命令提示符”
 6.Unix界面输入pip install -r requirements.txt
 7.如果显示pip is not recognized，则把开头的"pip" 替换成"C:\Python27\Scripts\pip” （如果你更换了安装python的路径请自行替换）
-8.安装完成后输入python example.py -a ptc -u ****** -p ****** -l "Some Location" -st 10
+8.安装完成后输入python runserver.py -a ptc -u ****** -p ****** -l "Some Location" -st 10 -H 0.0.0.0 -L en
 
 -u 后面的星号部分替换为你之前注册的Pokemon Trainer Club/Goggle账户的username
 -p 后面的替换为对应的密码
@@ -21,7 +21,7 @@ http://localhost:5000
 然后一直刷新就好了。
 
 举例
-python example.py -a ptc -u pokemontrainer -p 1234567 -l "-34.915612, 138.594893" -st 10
+C:\Python27\Python.exe runserver.py -a ptc -u Username -p Password123 -l "Santa Monica Pier, California, USA" -st 10 -H 0.0.0.0 -L en
 
 PS -34.915612, 138.594893是国内飞机党所谓的“龙穴”，大概一分钟一条迷你龙的刷新速度。配合fake gps大概两三小时就能刷出快龙。
 
