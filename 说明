@@ -14,6 +14,7 @@
 -u 后面的星号部分替换为你之前注册的Pokemon Trainer Club/Goggle账户的username
 -p 后面的替换为对应的密码
 -l 后面的 "some location" 引号内部分替换为google map的gps 坐标。google地图上任意点击一个位置在屏幕下方就会出现gps坐标。
+-st 后面代表举例，10是10KM，由于此程序是由中心往外扫描的loop，扫描完方圆10km差不多5分钟左右，然后loop，所以10km是比较合适的距离，如果设置过大会导致一个扫描周期过长。
 同样，如果显示"Python is not recognized"， 请把开头的"python" 替换成"C:\Python27\python” （如果你更换了安装python的路径请自行替换）
 打开你的浏览器，在地址栏输入
 http://localhost:5000
